@@ -76,4 +76,18 @@ echo
 
 cat fair.c
 echo
+
+
+#PREGUNTA OBLIGATORIA:
+# ¿Por qué Linux no implementa directamente FCFS, SJF o RR
+# como se presentan en los libros?
 #
+# RESPUESTA:
+# FCFS, SJF y RR son algoritmos teóricos usados para aprender.
+# En un sistema real existen muchos procesos ejecutándose
+# al mismo tiempo, con diferentes prioridades y necesidades.
+#
+# Linux necesita un scheduler que sea justo, rápido y escalable.
+# Por eso utiliza el Completely Fair Scheduler (CFS),
+# que reparte el tiempo de CPU de manera equitativa
+# y funciona mejor en sistemas reales.
