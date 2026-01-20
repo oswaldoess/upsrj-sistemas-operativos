@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "ENTREGA PRACTICA - OSWALDO ESCOBAR RANGEL"
 echo
 
